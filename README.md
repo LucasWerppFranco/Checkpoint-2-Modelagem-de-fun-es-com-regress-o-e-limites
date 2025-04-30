@@ -79,10 +79,3 @@ Vamos calcular os valores:
 - **Cálculo do Limite**: O limite é 2.
 - **Exercício 1**: O limite é 2.
 """
-
-# Salvando o novo conteúdo em um arquivo .md
-file_path_v2 = "/mnt/data/Checkpoint-2-Modelagem-de-funções-com-regressão-e-limites.md"
-with open(file_path_v2, "w") as file:
-    file.write(content_v2)
-
-file_path_v2
