@@ -43,7 +43,7 @@ Para a variável com correlação significativa, fornecemos o gráfico de disper
 
 ### Limites Laterais em \(x=2\)
 
-Precisamos determinar os limites laterais da função
+É necessario determinar os limites laterais da função
 
 \[
 f(x)=\left\{
@@ -72,7 +72,7 @@ Como o limite pela esquerda (3) não é igual ao limite pela direita (5), o limi
 
 ### Cálculo de Limite em \(x=4\)
 
-Precisamos calcular o seguinte limite:
+Calculando o seguinte limite:
 
 \[
 \lim _{x \rightarrow 4}\left(x^{2}-5 x+6\right)
@@ -86,16 +86,16 @@ Como isso é um polinômio, podemos substituir diretamente \(x=4\) na expressão
 
 ### Cálculo Numérico de Limite para o Exercício 1
 
-Precisamos calcular o limite:
+Calculando o limite:
 
 \[
 \lim _{x \rightarrow 1} \frac{x^{2}-1}{x-1}
 \]
 
-numericamente. Vamos avaliar a função para \(x=0.9, 0.99, 0.999, 1.001, 1.01, 1.1\).
+numericamente. Avaliando a função para \(x=0.9, 0.99, 0.999, 1.001, 1.01, 1.1\).
 Observe que \(\frac{x^2 - 1}{x - 1} = \frac{(x-1)(x+1)}{x-1} = x+1\) para \(x \neq 1\).
 
-Vamos calcular os valores:
+Calculando os valores:
 - Para \(x = 0.9\), \(f(x) = 0.9 + 1 = 1.9\)
 - Para \(x = 0.99\), \(f(x) = 0.99 + 1 = 1.99\)
 - Para \(x = 0.999\), \(f(x) = 0.999 + 1 = 1.999\)
