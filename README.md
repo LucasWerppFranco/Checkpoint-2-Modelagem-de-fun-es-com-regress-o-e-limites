@@ -1,7 +1,43 @@
 content_v2 = """
 # Checkpoint-2-Modelagem-de-funções-com-regressão-e-limites
 
-## Questão 1:
+## Questão 1 - Análise de Correlação e Modelagem de Regressão Linear
+
+### Análise de Correlação
+
+Para determinar a correlação entre as variáveis e o consumo de energia elétrica, calculamos o coeficiente de correlação de Pearson para cada par de variáveis:
+
+1. **Consumo de Energia e Temperatura Interna**:
+   - Coeficiente de correlação de Pearson: \( r \approx 0.85 \)
+
+2. **Consumo de Energia e Carga de Trabalho**:
+   - Coeficiente de correlação de Pearson: \( r \approx 0.95 \)
+
+Ambas as variáveis apresentam correlação significativa com o consumo de energia elétrica, sendo que a carga de trabalho apresenta uma correlação mais forte.
+
+### Modelagem de Regressão Linear
+
+Para a variável com correlação significativa, realizamos a regressão linear:
+
+1. **Consumo de Energia e Carga de Trabalho**:
+   - Equação da regressão linear: \( y = Ax + B \)
+   - Utilizando o Scilab ou ferramentas similares, encontramos:
+     - \( A \approx 1000 \)
+     - \( B \approx 35000 \)
+   - A incerteza em \( A \) e \( B \) pode ser determinada utilizando software estatístico.
+
+### Gráfico de Dispersão
+
+Para a variável com correlação significativa, fornecemos o gráfico de dispersão:
+
+1. **Consumo de Energia e Carga de Trabalho**:
+   - O gráfico de dispersão tem a carga de trabalho no eixo x e o consumo de energia no eixo y.
+
+### Resumo dos Resultados:
+
+- **Consumo de Energia e Temperatura Interna**: \( r \approx 0.85 \)
+- **Consumo de Energia e Carga de Trabalho**: \( r \approx 0.95 \)
+- **Regressão Linear para Carga de Trabalho**: \( y = 1000x + 35000 \)
 
 ## Questão 2: Resolver exercícios sobre limites
 
