@@ -1,6 +1,10 @@
 # Checkpoint-2-Modelagem-de-fun-es-com-regress-o-e-limites
 
-## Limites Laterais em \(x=2\)
+## Questão 1:
+
+## Questão 2: Resolver exercicios sobre limites
+
+### Limites Laterais em \(x=2\)
 
 Precisamos determinar os limites laterais da função
 
@@ -33,7 +37,7 @@ ightarrow 2^{+}}(4 x-3)=4(2)-3=8-3=5
 
 Como o limite pela esquerda (3) não é igual ao limite pela direita (5), o limite não existe em \(x=2\).
 
-## Cálculo de Limite em \(x=4\)
+### Cálculo de Limite em \(x=4\)
 
 Precisamos calcular o seguinte limite:
 
@@ -51,7 +55,7 @@ ightarrow 4}\left(x^{2}-5 x+6
 ight)=(4)^{2}-5(4)+6=16-20+6=2
 \]
 
-## Cálculo Numérico de Limite para o Exercício 1
+### Cálculo Numérico de Limite para o Exercício 1
 
 Precisamos calcular o limite:
 
@@ -79,7 +83,7 @@ Vamos calcular os valores:
 ightarrow 1} rac{x^{2}-1}{x-1} = 2
 \]
 
-## Resumo
+### Resumo
 
 - **Pergunta 2**: O limite não existe em \(x=2\).
 - **Cálculo do Limite**: O limite é 2.
