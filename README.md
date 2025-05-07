@@ -1,4 +1,3 @@
-content_v2 = """
 # Checkpoint-2-Modelagem-de-funções-com-regressão-e-limites
 
 ## Questão 1 - Análise de Correlação e Modelagem de Regressão Linear
@@ -43,7 +42,7 @@ Para a variável com correlação significativa, fornecemos o gráfico de disper
 
 ### Limites Laterais em \(x=2\)
 
-É necessario determinar os limites laterais da função
+É necessário determinar os limites laterais da função
 
 \[
 f(x)=\left\{
@@ -114,4 +113,78 @@ Calculando os valores:
 - **Pergunta 2**: O limite não existe em \(x=2\).
 - **Cálculo do Limite**: O limite é 2.
 - **Exercício 1**: O limite é 2.
-"""
+
+## Questão 3: Simplificação e Estimativas de Limites
+
+### Exercício 1 — Simplificando a Função
+
+A função dada é:
+
+\[
+f(x) = \frac{x^2 - 1}{x - 1}
+\]
+
+Podemos simplificar:
+
+\[
+f(x) = x + 1 \quad \text{para } x \neq 1
+\]
+
+### Avaliando a Função
+
+- \( f(0.9) = 1.9 \)
+- \( f(0.99) = 1.99 \)
+- \( f(0.999) = 1.999 \)
+- \( f(1.001) = 2.001 \)
+- \( f(1.01) = 2.01 \)
+- \( f(1.1) = 2.1 \)
+
+### Estimando o Limite
+
+À medida que \(x\) se aproxima de 1 de ambos os lados, \(f(x)\) se aproxima de 2. Logo:
+
+\[
+\lim_{x \rightarrow 1} \frac{x^2 - 1}{x - 1} = 2
+\]
+
+---
+
+### Exercício 2 — Simplificando a Função
+
+A função dada é:
+
+\[
+g(x) = \frac{x^2 - 4x + 4}{x - 2}
+\]
+
+Note que:
+
+\[
+g(x) = \frac{(x - 2)^2}{x - 2} = x - 2 \quad \text{para } x \neq 2
+\]
+
+### Avaliando a Função
+
+- \( g(1.9) = -0.1 \)
+- \( g(1.99) = -0.01 \)
+- \( g(1.999) = -0.001 \)
+- \( g(2.001) = 0.001 \)
+- \( g(2.01) = 0.01 \)
+- \( g(2.1) = 0.1 \)
+
+### Estimando o Limite
+
+À medida que \(x\) se aproxima de 2, \(g(x)\) se aproxima de 0. Portanto:
+
+\[
+\lim_{x \rightarrow 2} \frac{x^2 - 4x + 4}{x - 2} = 0
+\]
+
+---
+
+\[
+\lim_{x \rightarrow 1} \frac{x^2 - 1}{x - 1} = 2
+\]  
+\[
+\lim_{x \rightarrow 2} \frac{x^2 - 4x + 4}{x - 2} = 0
+\]
